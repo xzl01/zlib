@@ -1,7 +1,2 @@
-cflags-for-minizip
-#use-dso
-use-dso-really
-merge-commit-form-huawei-optimize-performance
-Merge-loongson-mmi-optimizations.patch
-update-patch-from-huawei-to-fix-crc32-hash-error.patch
-CVE-2018-25032
+CVE-2014-9485-miniunzip.patch
+CVE-2023-45853-minizip.patch
