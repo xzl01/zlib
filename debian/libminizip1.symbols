@@ -1,4 +1,4 @@
-libminizip.so.1 libminizip1t64
+libminizip.so.1 libminizip1
  call_zopen64@Base 1.1
  call_zseek64@Base 1.1
  call_ztell64@Base 1.1
