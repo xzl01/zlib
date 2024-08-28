@@ -210,7 +210,7 @@ binary-arch: build install $(EXTRA_INSTALL)
 	dh_strip -a --dbgsym-migration="zlib1g-dbg (<< 1:1.2.11.dfsg-2~)"
 	dh_compress -a
 	dh_fixperms -a
-	dh_makeshlibs -plibminizip1 -V"libminizip1 (>> 1:1.2.13.dfsg-1)"
+	dh_makeshlibs -plibminizip1t64 -V"libminizip1t64 (>> 1:1.2.13.dfsg-1)"
 	dh_makeshlibs -pzlib1g -V"zlib1g (>= 1:1.2.3.3.dfsg-1)" --add-udeb=zlib1g-udeb
 ifeq (,$(filter nobiarch,$(DEB_BUILD_PROFILES)))
 ifneq (,$(filter $(DEB_HOST_ARCH), $(32-ARCHS)))
